@@ -1,0 +1,302 @@
+/* ------------------------------------------------------------ *\
+ Logos
+\* ------------------------------------------------------------ */
+.problemWrapper {
+    width: 240px;
+    margin: 0 auto;
+}
+.problem_image {
+    background: url(../css/images/Insurance01-03.svg);
+    // width: 300px;
+    // height: 400px;
+    width: 240px;
+    height: 300px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    // text-align: center;
+    // width: 240px;
+    // margin: 0 auto;
+    & .problemFull {
+        // height: 300px;
+        // width: 90%;
+
+
+    }
+    & .problemFull1 {
+        height: 150px;
+        position: absolute;
+        top: 40px;
+        left: 0;
+
+    }
+    & .problemFull2 {
+        height: 100px;
+        position: absolute;
+        bottom: 20px;
+        right: 33px;
+    }
+}
+.democratic_inner {
+    width: 240px;
+    margin: 0 auto;
+}
+.democraticInsurance {
+    margin: 0 auto;
+    position: relative;
+    height: 360px;
+    width: 100%;
+
+    & .insuranceImg {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0;
+    }
+    & .insuranceBounce {
+        position: absolute;
+        // top: -25px;
+        top: 47px;
+        -ms-transform: translatey(0px);
+        transform: translatey(0px);
+        z-index: 1;
+        right: 0;
+        left: 0;
+        margin: auto;
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        // width: 84%;
+        width: 93%;
+    }
+}
+@keyframes float {
+	0% {
+		// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		// box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+.logo_wrapper {
+    padding: 20px;
+    & .logos {
+        display: inline-block;
+        text-align: center;
+        & li {
+            display: inline-block;
+            width: 50%;
+            padding: 0 5px;
+            float: left;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            margin: 10px 0;
+            &:hover {
+                -webkit-filter: grayscale(0);
+                filter: grayscale(0);
+            }
+            &:nth-child(1){
+                & img {
+                    width: 90px;
+                }
+            }
+            &:nth-child(2){
+                & img {
+                    width: 90px;
+                }
+            }
+            &:nth-child(3){
+                & img {
+                    width: 150px;
+                }
+            }
+            &:nth-child(4){
+                & img {
+                    width: 150px;
+                }
+            }
+            &:nth-child(5){
+                & img {
+                    width: 150px;
+                }
+            }
+            &:nth-child(6){
+                & img {
+                    width: 70px;
+                }
+            }
+        }
+    }
+    & .logos_partners {
+        text-align: center;
+       & li {
+           width: 160px;
+           margin: 20px auto;
+           &.kleros {
+            width: 160px;
+        }
+        }
+    }
+}
+
+@media #{$tablet} {
+    .problemWrapper {
+        width: 35%;
+        margin: 0 auto;
+    }
+    .democratic_inner {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .democraticInsurance {
+        height: 500px;
+        width: 400px;
+        & .insuranceImg {
+            // position: absolute;
+            // left: 0;
+            // right: 0;
+            // margin: auto;
+            // height: 300px;
+            // bottom: 0;
+        }
+        & .insuranceBounce {
+            // top: -40px;
+            width: 75%;
+        }
+    }
+    //team
+    .logo_wrapper {
+        & .logos {
+            & li {
+                width: 108px;
+                &.kleros {
+                    width: 150px;
+                }
+            }
+        }
+    }
+    //partners
+    .logo_wrapper {
+        & .logos_partners {
+            & li {
+                display: inline-block;
+                padding:0 5px;
+            }
+        }
+    }
+}
+
+@media #{$tablet1} {
+    .problemWrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .problem_image {
+        width: 100%;
+        height: 450px;
+        // width: auto;
+        // width: 100%;
+        // & .problemFull {
+        //     margin-right: -25px;
+        //     // height: 400px;
+        //     width: 70%;
+        // }
+        & .problemFull2 {
+            bottom:36px;
+            right: 45px;
+            height: 150px;
+        }
+        & .problemFull1 {
+            height: 197px;
+            top: 81px;
+            left: 28px;
+        }
+    }
+
+    //team
+    .logo_wrapper {
+        width: 640px;
+        margin: 0 auto;
+        padding:0;
+
+        & .logos {
+            margin-top: -30px;
+            margin-bottom: 30px;
+            & li {
+                width: 100px;
+                &.kleros {
+                    width: 150px;
+                }
+            }
+        }
+        &.partners {
+            width: 100%;
+            margin: 0 auto;
+            & .logos_partners {
+                text-align: center;
+                // margin-right: -80px;
+                & li {
+                    width: 200px;
+                    padding:0 10px;
+                    &.kleros {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media #{$tablet2} {
+    .problem_image {
+
+        // width: auto;
+        // width: 100%;
+        // & .problemFull {
+        //     margin-right: -25px;
+        //     // height: 400px;
+        //     width: 70%;
+        // }
+        & .problemFull2 {
+            bottom:36px;
+            right: 115px;
+            height: 150px;
+        }
+        & .problemFull1 {
+            height: 197px;
+            top: 81px;
+            left: 90px;
+        }
+    }
+    // .problem_image {
+    //     width: 95%;
+    //     & .problemFull {
+    //         // width:50%;
+    //         width: 300px;
+    //     }
+    //     & .problemFull2 {
+    //         right: 170px;
+    //     }
+    // }
+}
+@media #{$desktop} {
+    .logo_wrapper {
+        width: 1140px;
+        margin: 0 auto;
+        text-align: center;
+        & .logos {
+            & li {
+                width: auto;
+                margin:0;
+                padding: 0 15px;
+            }
+        }
+    }
+}
