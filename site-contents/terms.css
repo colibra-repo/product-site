@@ -1,0 +1,15 @@
+.section_flight {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, #0e7476 0%, #06ba70 100%);
+}
+
+.cols {
+	padding: 40px;
+}
+
+p, .c9, .c10, .c7, .c3 {
+	color:white;
+	margin: 10px;
+}
+
