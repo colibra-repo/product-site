@@ -6,6 +6,9 @@
 
 .cols {
 	padding: 40px;
+	margin: 20px;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 p, .c9, .c10, .c7, .c3 {
@@ -13,3 +16,7 @@ p, .c9, .c10, .c7, .c3 {
 	margin: 10px;
 }
 
+h1, h2 {
+	color: white;
+	font-family: "Calibri";
+}
