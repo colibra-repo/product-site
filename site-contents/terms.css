@@ -2,23 +2,26 @@
 	height: 100%;
 	width: 100%;
 	background: linear-gradient(to right, #0e7476 0%, #06ba70 100%);
+    border-top: 0px solid white;
+    position: relative;
+
 }
 
 .cols {
-	padding: 40px;
-	margin: 20px;
-	margin-top: 0;
-	padding-top: 0;
+	    padding: 20px;
+    margin: 0px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 p, .c9, .c10, .c7, .c3 {
 	color:white;
-	margin: 10px;
 }
 
 h1, h2 {
 	color: white;
 	font-family: "Calibri";
+	font-size:20px;
 }
 
 .lang {
